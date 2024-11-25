@@ -63,7 +63,7 @@ styled with Bootstrap buttons.
 SCREENSHOTS OF OVERRAL PRODUCT
 ### Hero Section 
 
-[Hero Section](screenshots/hero_section.png) 
+![Hero Section](screenshots/hero_section.png) 
 _Description_: The hero section with a calming background image and positive messaging. 
 ADD SCREENSHOT HERE
 ### Information Cards 
@@ -103,9 +103,10 @@ _Description_: Section with uplifting quotes to encourage users.
 
 ## Credits 
 
-- **External Libraries**: [Bootstrap](https://getbootstrap.com/) 
+- **External Libraries**: 
+![Bootstrap](https://getbootstrap.com/) 
 - **Images**: List any external sources for images used in the project.
- [pexels](https://www.pexels.com/) ADD HERE
+ ![pexels](https://www.pexels.com/) ADD HERE
 
 - **Code**: Attribute any external code snippets or tutorials followed during the development. EDIT THIS
 
