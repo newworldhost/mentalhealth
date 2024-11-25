@@ -19,4 +19,20 @@ ul {
 }
 #services {
     margin-top: 50px;
+    margin-right:150px;
+   
+}
+
+#affirmationsCarousel {
+    margin-top:50px;
+    border:2px outset #f0f0f0;
+    margin:150px 50px;
+    border-radius: 30px;
+    padding:15px;
+    color:black;
+    background-color:beige;
+    font-size:22px;
+}
+#affirmationsCarousel h2 {
+    text-align:center;
 }
