@@ -57,7 +57,7 @@ styled with Bootstrap buttons.
 ## Screenshots 
 
 ## wireframe
-<img src="https://i.ibb.co/4PPq3pm/wireframe.png" alt="wireframe" width="150px" height="150px" border="0">
+![wireframe](https://i.ibb.co/4PPq3pm/wireframe.png)
 
 
 SCREENSHOTS OF OVERRAL PRODUCT
