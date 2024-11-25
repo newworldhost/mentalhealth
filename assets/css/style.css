@@ -61,3 +61,11 @@ ul {
     max-height:750px;
    
 }
+div > .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom:392px;
+}
