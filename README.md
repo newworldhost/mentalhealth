@@ -1,131 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mental Health Awareness Webpage 
 
-Welcome USER_NAME,
+## Project Overview This project aims to create a welcoming and accessible one-page interactive front-end web application that provides beginner-friendly information on mental health. The webpage uses HTML and CSS with Bootstrap to ensure a clean, supportive, and responsive design. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Value 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+The webpage is designed to help users recognize common mental health issues and manage stress. It provides a supportive layout with positive messaging, informational content, and external resources. The goal is to make mental health information easily accessible and engaging. 
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- **Hero Section**: A Bootstrap Jumbotron with a calming background image and positive messaging about mental health. 
 
-`python3 -m http.server`
+- **Information Cards**: Organized content on mental health tips and common issues using Bootstrap card components. 
 
-A blue button should appear to click: _Make Public_,
+- **Resource Links**: Grid layout with external links to mental health resources 
+styled with Bootstrap buttons. 
 
-Another blue button should appear to click: _Open Browser_.
+- **Positive Affirmations**: Uplifting quotes to encourage and support users. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Accessibility and UX 
 
-A blue button should appear to click: _Make Public_,
+- Semantic HTML is used to ensure content is accessible and readable. 
+- Adherence to accessibility guidelines, including appropriate colour contrast and alt text for non-text elements. 
+- User actions provide immediate feedback to enhance user experience. 
 
-Another blue button should appear to click: _Open Browser_.
+## Responsive Design 
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The layout adapts to different screen sizes using CSS media queries, Flexbox, Grid, and Bootstrap. 
+- Tested on various devices to ensure consistent and functional navigation. 
 
-To log into the Heroku toolbelt CLI:
+## Code Validation 
+- HTML and CSS code pass W3C and Jigsaw validators with no issues. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment 
+- The webpage is deployed on [GitHub Pages/Netlify] ADD GITHUB PAGES JJ. 
+- The development version matches the deployed version with no discrepancies. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Version Control 
 
-### Connecting your Mongo database
+- Git and GitHub are used for version control, with a clear commit history. - Commented-out code is removed before final deployment. 
+- Internal links and interactive elements function correctly. 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## AI Tools 
 
-------
+- AI tools like Copilot were used to assist in code creation, debugging, and optimization. 
 
-## Release History
+- Brief reflection on AI's role is included in this document.
+ 
+## Reflections on AI Use 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **Code Creation**: AI was used to generate boilerplate code for HTML and CSS components, speeding up the initial setup process. 
 
-**June 18, 2024,** Add Mongo back into template
+- **Debugging**: AI tools helped identify and resolve issues in the code, ensuring clean and functional implementation. 
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- **Optimization**: AI-assisted code optimization enhanced performance and user experience, particularly in responsive design adjustments.
+ 
+## Screenshots 
+SCREENSHOTS OF OVERRAL PRODUCT
+### Hero Section 
 
-**May 28 2024:** Fix Mongo and Links installs
+[Hero Section](screenshots/hero_section.png) 
+_Description_: The hero section with a calming background image and positive messaging. 
+ADD SCREENSHOT HERE
+### Information Cards 
+![Information Cards](screenshots/information_cards.png) 
+_Description_: Cards presenting mental health tips and common issues. 
+ADD SCREEN SHOTS HERE
+### Positive Affirmations  
 
-**April 26 2024:** Update node version to 16
+_Description_: Section with uplifting quotes to encourage users. 
+- "I am worthy of love and care."
 
-**September 20 2023:** Update Python version to 3.9.17.
+- "It's okay to ask for help when I need it."
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- "I am stronger than my struggles."
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- "My mental health is just as important as my physical health."
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- "I deserve to take time for myself and my well-being."
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- "Every day is a new opportunity to grow and heal."
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- "I am proud of myself for how far I have come."
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- "I have the strength to overcome any challenge."
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- "I am not defined by my mental health struggles."
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- "I am capable of finding peace and happiness."
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment Steps 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. **Set Up Repository**: Create a new GitHub repository and clone it locally. 
+2. **Development**: Develop the webpage locally, using version control to manage changes. 
+3. **Validation**: Validate HTML and CSS using W3C and Jigsaw validators. 
+4. **Deployment**: Deploy the webpage to GitHub Pages or Netlify. 
+5. **Final Checks**: Ensure all features work correctly and matches the development version. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Credits 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- **External Libraries**: [Bootstrap](https://getbootstrap.com/) 
+- **Images**: List any external sources for images used in the project.
+ [pexels](https://www.pexels.com/) ADD HERE
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- **Code**: Attribute any external code snippets or tutorials followed during the development. EDIT THIS
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Contact For any questions or feedback, please contact jeffries839@gmail.com
