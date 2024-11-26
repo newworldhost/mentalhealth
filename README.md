@@ -65,11 +65,11 @@ SCREENSHOTS OF OVERRAL PRODUCT
 
 ![Hero Section](screenshots/hero_section.png) 
 _Description_: The hero section with a calming background image and positive messaging. 
-ADD SCREENSHOT HERE
+![hero section with uplifting quotes](https://i.ibb.co/x82RS18/hero-section.png)
 ### Information Cards 
 ![Information Cards](screenshots/information_cards.png) 
 _Description_: Cards presenting mental health tips and common issues. 
-ADD SCREEN SHOTS HERE
+![information cards](https://i.ibb.co/LdjBfzh/information-cards.png)
 ### Positive Affirmations  
 
 _Description_: Section with uplifting quotes to encourage users. 
@@ -102,12 +102,14 @@ _Description_: Section with uplifting quotes to encourage users.
 5. **Final Checks**: Ensure all features work correctly and matches the development version. 
 
 ## Credits 
+![anxiety documents](https://www.anxietycanada.com/) 
+![mental wellbeing documents](https://www.mind.org.uk/)
 
 - **External Libraries**: 
 ![Bootstrap](https://getbootstrap.com/) 
 - **Images**: List any external sources for images used in the project.
- ![pexels](https://www.pexels.com/) ADD HERE
+![pexels](https://www.pexels.com/)
 
-- **Code**: Attribute any external code snippets or tutorials followed during the development. EDIT THIS
+- **Code**: Attribute any external code snippets or tutorials followed during the development. 
 
 ## Contact For any questions or feedback, please contact jeffries839@gmail.com
