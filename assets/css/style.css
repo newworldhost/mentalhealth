@@ -63,8 +63,7 @@ ul {
     border: 2px outset #000000;
     border-radius: 5px;
     background-color: beige;
-    max-width: 300px;
-    max-height: 750px;
+    height:100%;
 
 }
 
@@ -74,7 +73,7 @@ div>.card-body {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 392px;
+   
 }
 
 /* this section related to community */
