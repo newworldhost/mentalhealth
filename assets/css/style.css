@@ -23,8 +23,14 @@ ul {
     align-items: center;
     width: 100%;
     gap: 10px;
+   
 }
+/* resizing the footer to show content better */
+ div.container.p-3 {
 
+   max-height: 97px;
+}
+}
 /* services section */
 #services {
     margin-top: 50px;
