@@ -136,6 +136,57 @@
       <!-- Posts will be added here -->
     </div>
   </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const postsContainer = document.getElementById('posts');
+
+      // Load posts from localStorage
+      const savedPosts = JSON.parse(localStorage.getItem('posts')) || [];
+      savedPosts.forEach(postData => {
+        const post = document.createElement('div');
+        post.classList.add('post');
+        
+        const postTitle = document.createElement('h4');
+        postTitle.textContent = postData.title;
+        post.appendChild(postTitle);
+        
+        const postContent = document.createElement('p');
+        postContent.textContent = postData.content;
+        post.appendChild(postContent);
+        
+        postsContainer.appendChild(post);
+      });
+
+      document.querySelector('.new-post button').addEventListener('click', function() {
+        const title = document.getElementById('post-title').value;
+        const content = document.getElementById('post-content').value;
+
+        if (title && content) {
+          const post = document.createElement('div');
+          post.classList.add('post');
+          
+          const postTitle = document.createElement('h4');
+          postTitle.textContent = title;
+          post.appendChild(postTitle);
+          
+          const postContent = document.createElement('p');
+          postContent.textContent = content;
+          post.appendChild(postContent);
+          
+          postsContainer.appendChild(post);
+
+          // Save post to localStorage
+          savedPosts.push({ title, content });
+          localStorage.setItem('posts', JSON.stringify(savedPosts));
+          
+          document.getElementById('post-title').value = '';
+          document.getElementById('post-content').value = '';
+        } else {
+          alert('Please fill in both the title and content.');
+        }
+      });
+    });
+  </script>
 
   <footer class="bg-dark text-white text-center sticky-bottom .footer-social-icons">
     <section class="container p-3">
